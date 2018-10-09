@@ -1,0 +1,29 @@
+{
+  "name": "AppTest",
+  "dir": "rtl",
+  "lang": "en-US",
+  "short_name": "AT",
+  "start_url": "https://alex68802.apache.techcollege.dk/",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "description": "A test for web app productions",
+  "icons": [{
+    "src": "./WebLogo.svg",
+    "sizes": "36x36 48x48 72x72 96x96 144x144 192x192 512x512",
+    "type": "image/svg+xml"
+  }, {
+    "src": "./favicon/android-icon-144x144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "./favicon/Alexander-Logo192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },{
+    "src": "./favicon/Alexander-Logo512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}
