@@ -1,0 +1,52 @@
+@function calc-resp-font($font-select, $font-size-base, $font-min-screen, $font-max-screen) {  
+
+// Fluid responsive font-size 
+// Initiate $font-size-base, $screen-size-min, $screen-size-max 
+// Calculation of font-size-norm is inspired by calcultor: https://websemantics.uk/tools/responsive-font-calculator/:
+// >> font-size: calc(16px + ((1vw - 4.8px) * x));
+//       Where: * x = 100 * font_Size_Difference / viewport_Width_Difference */
+  
+// Calculation of font-size for h1, h2, h3, h4, h5, h6 is found on w3schools: https://www.w3schools.com/TAGS/tag_hn.asp
+// Font size for navigation is due to customer specification
+// All units are in px
+// Font-select is the selector. Use 'norm' as an overall selector, h1-h6 as usual and 'cust' for double size.  
+// Font-size-base is the default size for font. 
+// font-min-screen and font-max-screen is the scope of screen size, where font size is varying
+
+
+$font-size-min: #{$font-size-base * 0.75};
+$font-size-max: #{$font-size-base * 2.0};
+$font-size-px: $font-size-min+'px';
+$font-size-aa: calc(1vw - (0.3 * #{$font-size-px})); 
+$font-size-bb: calc(100 * (#{$font-size-max} - #{$font-size-min}) / (#{$font-max-screen} - #{$font-min-screen}));
+$font-size-norm: calc((#{$font-size-px} + ((#{$font-size-aa}) * #{$font-size-bb}))); 
+@if $font-select == 'norm' {
+    @return calc(#{$font-size-norm} * 1.0);
+} @else
+    if $font-select == 'h1' {
+        @return calc(#{$font-size-norm} * 2.0);
+} @else 
+    if $font-select == 'h2' {
+        @return calc(#{$font-size-norm} * 1.5);   
+} @else 
+    if $font-select == 'h3' {
+        @return calc(#{$font-size-norm} * 1.17);     
+} @else 
+    if $font-select == 'h4' {
+        @return calc(#{$font-size-norm} * 1.0);  
+} @else 
+    if $font-select == 'h5' {
+        @return calc(#{$font-size-norm} * 0.83);    
+} @else 
+    if $font-select == 'h6' {
+        @return calc(#{$font-size-norm} * 0.67); 
+} @else 
+    if $font-select == 'cust' {
+        @return calc(#{$font-size-norm} * 2.0);
+} @else {
+        @return calc(#{$font-size-norm} * 1.0); 
+}
+ 
+}
+
+ 

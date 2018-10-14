@@ -1,0 +1,21 @@
+// Colors 
+$color-primary: #ececec;
+
+$color-secondary: #b59556; 
+
+$color-tertiary: #494948;
+
+// color-back 
+$color-back: #ffffff; 
+// color-fonts 
+$color-font-norm: $color-tertiary; 
+$color-font-head: $color-secondary; 
+
+
+$nav-color-back: $color-back; 
+$head-color-back: $color-back; 
+$main-color-back: $color-back; 
+$footer-color-back: $color-back; 
+
+// Bridge til variabler i mixins 
+$default-border-color: $color-tertiary;

@@ -1,17 +1,17 @@
 self.addEventListener("install", function(e) {
     console.log("Service Worker Installed");
     e.waitUntil(
-        caches.open('AppTest').then(function(cache) {
+        caches.open('SkagensKunstmuseer').then(function(cache) {
             return cache.addAll([
-                './',
-                './index.php',
-                './kontakt.php',
+                // './',
+                // '/Artists.php',
+                // '/Biography/.php',
                 // '/resources/css/style.css',
-                './resources/js/app.js',
-                './resources/svg/WebLogo.svg',
-                './favicon/android-icon-144x144.png',
-                './favicon/android-icon-192x192.png',
-                './resources/js/notifications.js'
+                './Artists/resources/js/app.js',
+                // './resources/svg/WebLogo.svg',
+                // './favicon/android-icon-144x144.png',
+                // './favicon/android-icon-192x192.png',
+                './Artist/resources/js/fetch-artist.js'
             ]);
         })
     );

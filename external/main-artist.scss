@@ -1,0 +1,44 @@
+@import 'base/fontsetup';
+@import 'base/colorsetup';
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+
+.artist {
+    #wrapper {
+        width: 100vw;
+        color: $color-font-norm;
+        font-family: $font-family-norm;
+        font-weight: $font-weight-norm;
+        $font-selector: 'norm'; 
+        font-size: calc-resp-font($font-selector, $font-size-base, $screen-size-min, $screen-size-max);
+        background-color: $color-back; 
+        margin: 3vmin 5vmin;
+        padding: 0;
+        border: 0;
+    }
+    h2 {
+        $font-selector: 'norm'; 
+        font-size: calc(calc-resp-font($font-selector, $font-size-base, $screen-size-min, $screen-size-max) * 3);
+        font-weight: $font-weight-bold; 
+         
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    @import 'layouts/navigation'; 
+    
+    @import 'layouts/header'; 
+    
+    
+    p:first-of-type:first-of-letter {
+        color: $color-font-head;
+        font-size: 300%; 
+    }
+}

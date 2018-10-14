@@ -1,14 +1,14 @@
 {
-  "name": "AppTest",
+  "name": "SkagensKunstmuseer",
   "dir": "rtl",
   "lang": "en-US",
-  "short_name": "AT",
-  "start_url": "https://alex68802.apache.techcollege.dk/",
+  "short_name": "SK",
+  "start_url": "",
   "display": "fullscreen",
   "orientation": "any",
   "background_color": "#fff",
   "theme_color": "#fff",
-  "description": "A test for web app productions",
+  "description": "Test for Skagen Kunst Museer",
   "icons": [{
     "src": "./WebLogo.svg",
     "sizes": "36x36 48x48 72x72 96x96 144x144 192x192 512x512",

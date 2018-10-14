@@ -1,0 +1,12 @@
+// Global variables and bridge between fontsetup/colorsetup
+// !!Must be included after these partials
+
+
+// Calculate responsive font-size 
+$font-select: 'norm';
+$font-size-base: 16; 
+$screen-size-min: 320; 
+$screen-size-max: 1536;
+
+
+
