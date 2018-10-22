@@ -19,8 +19,9 @@
     }
     h2 {
         $font-selector: 'norm'; 
-        font-size: calc(calc-resp-font($font-selector, $font-size-base, $screen-size-min, $screen-size-max) * 3);
         font-weight: $font-weight-bold; 
+        font-size: calc-resp-font($font-selector, $font-size-base, $screen-size-min, $screen-size-max);
+        font-size: calc(font-size * 3); 
          
     }
     
