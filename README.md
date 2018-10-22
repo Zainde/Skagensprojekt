@@ -9,7 +9,7 @@ https://alex68802.apache.techcollege.dk/index.php
 
 Font style:
 
-<link rel="stylesheet" href="https://use.typekit.net/lqe8fzx.css">
+link rel="stylesheet" href="https://use.typekit.net/lqe8fzx.css"
 
 font-family: acumin-pro,sans-serif;
 font-weight: 400;
