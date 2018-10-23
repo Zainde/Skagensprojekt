@@ -1,0 +1,166 @@
+@import '../mixin/fluid_topography';
+@import '../mixin/color_theme';
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Infos{
+
+  @include bp(small) {
+
+    margin-top: -200px;
+text-align: left;
+
+
+
+  }
+
+  @include bp(large) {
+    display:block
+
+
+  }
+
+
+}
+figure{
+
+  @include bp(small) {
+    margin-bottom: 80px;
+  }
+}
+
+.fa-clock, .fa-dollar-sign{
+
+  padding: 15px;
+  @include fluid-type(2.2vh, 3.5vh);
+}
+
+
+.LineThrough{
+  border-bottom: 3px solid rgba(map-get($color-index, Active),1);
+  text-align: center;
+  height: 10px;
+  margin-bottom: 10px;
+}
+
+.LineThrough span {
+  background: #fff;
+  padding: 0 -20px;
+  margin-bottom: 20px;
+}
+
+.LineThrough span h3{
+display:inline-block;
+  margin: 0;
+  background: #fff;
+  padding: 5px 10px 0 10px;
+}
+
+.email, .phonenumer{
+
+  text-decoration: none;
+  display: block;
+
+  color: rgba(map-get($color-index, Dark_font),1);
+
+}
+
+.contact_original{
+
+
+  @include bp(small) {
+    display:block;
+margin-bottom: 150px;
+margin-top: 50px;
+  }
+
+  @include bp(large) {
+  display:none;
+
+
+  }
+
+
+}
+
+.contact_clone{
+
+  @include bp(small) {
+  display:none
+
+
+}
+
+  @include bp(large) {
+    display:block;
+
+margin-top: 60px;
+  }
+
+
+
+
+
+}
+
+
+
+.Pricing_card {
+
+  h3{
+    @include fluid-type(2.2vh, 3.5vh);
+    font-weight: 600;
+    margin-top: 45px;
+    line-height: 1.2vh;
+  }
+
+  p{
+    @include fluid-type(1.8vh, 2vh);
+    margin: 10px;
+  }
+
+  @include bp(x-small) {
+    flex: 0 1 100%;
+
+
+  }
+
+  @include bp(small) {
+    flex: 0 1 100%;
+
+
+  }
+
+  @include bp(medium) {
+    flex: 0 1 45%;
+  }
+
+  @include bp(large) {
+    flex: 0 1 30%;
+
+    figure, .Infos{
+      display:none;
+    }
+  }
+
+}
+
+
+.contact .fab{
+
+  padding: 20px;
+
+  @include fluid-type(1.8vh, 4.2vh);
+
+  color: rgba(map-get($color-index, Dark_font),1);
+
+}
+
+.combo{
+
+  padding-top: 20px;
+}

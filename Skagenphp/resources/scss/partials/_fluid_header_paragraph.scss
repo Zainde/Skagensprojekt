@@ -1,0 +1,36 @@
+@import '../mixin/fluid_topography';
+@import '../mixin/color_theme';
+
+
+a{
+	@include fluid-type(1.8vh, 2.2vh);
+	font-weight: normal;
+
+	margin: 1vh  0;
+}
+
+p {
+	@include fluid-type(1.8vh, 2.8vh);
+	font-weight: normal;
+
+	margin: 2vh  0;
+}
+
+h1 {
+	@include fluid-type(28px, 40px);
+	font-weight: 600;
+}
+
+h2 {
+	@include fluid-type(1.8vh, 5vh);
+	font-weight: 600;
+
+	color: rgba(map-get($color-index, Active),1);
+}
+
+h3{
+	@include fluid-type(2.0vh, 2.5vh);
+	font-weight: 500;
+padding: 10px 0;
+	color: rgba(map-get($color-index, Dark_font),1);
+}

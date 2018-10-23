@@ -1,0 +1,29 @@
+{
+  "name": "AppTest",
+  "dir": "rtl",
+  "lang": "en-US",
+  "short_name": "SKAGEN MUS",
+  "start_url": "https://netkravler.dk/skagen",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "description": "Skagen museum PWA",
+  "icons": [ {
+    "src": "./favicon/144x144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "./favicon/192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },{
+        "src": "./favicon/256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },{
+    "src": "./favicon/512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}

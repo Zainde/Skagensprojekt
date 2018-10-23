@@ -1,0 +1,12 @@
+$color-index: (
+    Broken_white:   #ececec,
+    Active:      #b59556,
+    Dark_font:     #494948
+
+);
+
+
+
+@function color-index($color-key) {
+    @return map-get($color-index, $color-key);
+    }

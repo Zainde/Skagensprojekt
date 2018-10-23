@@ -1,0 +1,45 @@
+@import '../mixin/color_theme';
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  background-color: #fff;
+  box-shadow: 0 -5px 7px -5px rgba(map-get($color-index,  Dark_font),1);
+    text-align: center;
+    
+    ul{
+
+
+
+    li{
+        display: inline-block;
+        list-style: none;
+
+
+      a{
+
+        padding: 2vh 4vh;
+        display: block;
+
+
+
+
+
+            font-size: 4vh;
+            cursor: pointer;
+            color: rgba(map-get($color-index, Dark_font),1);
+
+
+        .active{
+
+          color: rgba(map-get($color-index, Active),1);
+        }
+
+        i{
+          z-index: -10;
+        }
+      }
+    }
+}}

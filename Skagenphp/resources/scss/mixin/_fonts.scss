@@ -1,0 +1,32 @@
+
+
+
+
+
+$my_fonts: (
+    playfair  : 'PlayfairDisplay' 
+  );
+  
+  @function my_fonts($font_key) {
+      @return map-get($my_fonts, $font_key);
+    }
+    
+
+    
+@import "color_theme";
+
+
+
+@mixin my_fonts($font_key: false, $size: false,  $weight: false,  $lh:false , $align:false) {
+    
+    @if $font_key {font-family: my_fonts($font_key);}
+   
+
+
+    @if $size { font-size: $size; }
+
+    @if $weight { font-weight: $weight; }
+    @if $lh { line-height: $lh; }
+    @if $align { text-align: $align; }
+} 
+

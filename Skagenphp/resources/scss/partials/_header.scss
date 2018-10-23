@@ -1,0 +1,83 @@
+@import '../mixin/media_query';
+.flag {
+
+position:fixed;
+
+
+  list-style: none;
+
+
+  @include bp(small) {
+    left: 0;
+    top: 0;
+  width: 100%;
+    display:block;
+    background-color: #fff;
+    z-index: 10;
+
+  }
+
+  @include bp(large) {
+    top: 1vh;
+    left: 1vh;
+    width: auto;
+
+    background-color: rgba(0,0,0,0);
+  }
+
+    li{
+
+
+
+      @include bp(small) {
+
+        display:inline-block;
+
+      }
+
+      @include bp(large) {
+        display:block;
+      }
+
+
+
+img{
+
+  @include bp(small) {
+    width: 50px;
+    z-index: 12;
+  }
+
+  @include bp(large) {
+    width: 40px;
+  }
+
+  margin: 1vh;
+}
+
+a{
+
+    cursor: pointer;
+}
+
+}
+
+}
+
+#title{
+
+  text-align: center;
+}
+
+#pricetitle{
+
+  text-align: center;
+  @include bp(small) {
+    display:none;
+  }
+  @include bp(large) {
+    display:block;
+  }
+}
+
+

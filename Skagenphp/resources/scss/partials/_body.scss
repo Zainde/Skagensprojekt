@@ -1,0 +1,65 @@
+
+@import '../mixin/media_query';
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+
+
+
+font-family: sans-serif;
+
+    position: relative;
+
+
+    margin: 3vh 2vh 9vh 2vh;
+
+
+
+
+}
+
+#overlay {
+    position: fixed;
+    display: block;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 200;
+    cursor: pointer;
+    border: solid 1px #333;
+
+    padding: 60% 25% ;
+
+}
+
+
+
+
+#content{
+
+
+    @include bp(small) {
+        margin: 1vh;
+
+    }
+
+    @include bp(large) {
+        margin: 2vh;
+
+    }
+}
+
+.center{
+
+    text-align: center;
+}

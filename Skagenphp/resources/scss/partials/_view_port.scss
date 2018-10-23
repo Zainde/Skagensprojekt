@@ -1,0 +1,15 @@
+#viewportsize {
+    display: none;
+    z-index: 9999;
+    position: fixed;
+    top: 30%;
+    transform: translatey(-50%);
+    left: 0px;
+    color: #fff;
+    background-color: rgba(map-get($color-index, Active),1);
+    padding: 10px 15px 10px 5px;
+    border-radius: 0 40px 40px 0;
+    border: solid 5px #fff;
+    @include fluid-type(1.8vh, 3vh);
+  }
+  
