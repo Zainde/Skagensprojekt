@@ -1,0 +1,39 @@
+#map{
+  height: 55vh;
+}
+#buttonholder{
+  display: flex;
+  flex-direction: column;
+  button{
+    font-family: acumin-pro-semi-condensed, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: auto;
+    background-color: white;
+    border: none;
+    width: 80%;
+    text-align: left;
+    height: 10vh;
+    font-size: 20pt;
+    &:focus{
+    outline:none;
+    }
+  }
+  .map_hr{
+    background-color: #b59556;
+    margin: 0;
+    width: 208px;
+  }
+}
+footer{
+  p{
+    margin: 0;
+  }
+  margin: 0;
+  height: 48px;
+  background-color:blue;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}

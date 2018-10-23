@@ -1,0 +1,26 @@
+[{
+  "title":"skagens_museum",
+   "content": [{
+     "name": "Skagens museum",
+    "lat":"57.724782",
+    "lng": "10.59717",
+    "type": "museum"
+     }]
+}, {
+  "title":"anchers_hus",
+    "content": [{
+      "name": "Anchers hus",
+    "lat":"57.726137",
+    "lng": "10.596893",
+    "type": "museum"
+     }]
+},   {
+  "title":"drachmanns_hus",
+    "content": [{
+      "name": "Drachmanns hus",
+    "lat":"57.718876",
+    "lng": "10.577817",
+    "type": "museum"
+    }]
+}
+]

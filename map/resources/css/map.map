@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/map.css",
+	"sources": [
+		"../sass/map.scss"
+	],
+	"sourcesContent": [
+		"#map{\r\n  height: 55vh;\r\n}\r\n#buttonholder{\r\n  display: flex;\r\n  flex-direction: column;\r\n  button{\r\n    font-family: acumin-pro-semi-condensed, sans-serif;\r\n    font-weight: 600;\r\n    font-style: normal;\r\n    margin: auto;\r\n    background-color: white;\r\n    border: none;\r\n    width: 80%;\r\n    text-align: left;\r\n    height: 10vh;\r\n    font-size: 20pt;\r\n    &:focus{\r\n    outline:none;\r\n    }\r\n  }\r\n  .map_hr{\r\n    background-color: #b59556;\r\n    margin: 0;\r\n    width: 208px;\r\n  }\r\n}\r\nfooter{\r\n  p{\r\n    margin: 0;\r\n  }\r\n  margin: 0;\r\n  height: 48px;\r\n  background-color:blue;\r\n}\r\nbody{\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n"
+	],
+	"mappings": ";;AAAA,AAAA,IAAI,CAAA;EACF,MAAM,EAAE,IAAK;CACd;;;AACD,AAAA,aAAa,CAAA;EACX,OAAO,EAAE,IAAK;EACd,cAAc,EAAE,MAAO;CAqBxB;;;AAvBD,AAGE,aAHW,CAGX,MAAM,CAAA;EACJ,WAAW,EAAE,qCAAsC;EACnD,WAAW,EAAE,GAAI;EACjB,UAAU,EAAE,MAAO;EACnB,MAAM,EAAE,IAAK;EACb,gBAAgB,EAAE,KAAM;EACxB,MAAM,EAAE,IAAK;EACb,KAAK,EAAE,GAAI;EACX,UAAU,EAAE,IAAK;EACjB,MAAM,EAAE,IAAK;EACb,SAAS,EAAE,IAAK;CAIjB;;;AAjBH,AAGE,aAHW,CAGX,MAAM,AAWH,MAAM,CAAA;EACP,OAAO,EAAC,IAAK;CACZ;;;AAhBL,AAkBE,aAlBW,CAkBX,OAAO,CAAA;EACL,gBAAgB,EAAE,OAAQ;EAC1B,MAAM,EAAE,CAAE;EACV,KAAK,EAAE,KAAM;CACd;;;AAEH,AAAA,MAAM,CAAA;EAIJ,MAAM,EAAE,CAAE;EACV,MAAM,EAAE,IAAK;EACb,gBAAgB,EAAC,IAAK;CACvB;;;AAPD,AACE,MADI,CACJ,CAAC,CAAA;EACC,MAAM,EAAE,CAAE;CACX;;;AAKH,AAAA,IAAI,CAAA;EACF,OAAO,EAAE,IAAK;EACd,cAAc,EAAE,MAAO;CACxB",
+	"names": []
+}

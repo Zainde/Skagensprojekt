@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* line 1, C:/Users/Zainde/Documents/HTMLSchool/Hovedforløb/php/_www1_apache/public_html/resources/sass/map.scss */
+#map {
+  height: 55vh;
+}
+
+/* line 4, C:/Users/Zainde/Documents/HTMLSchool/Hovedforløb/php/_www1_apache/public_html/resources/sass/map.scss */
+#buttonholder {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 7, C:/Users/Zainde/Documents/HTMLSchool/Hovedforløb/php/_www1_apache/public_html/resources/sass/map.scss */
+#buttonholder button {
+  font-family: acumin-pro-semi-condensed, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: auto;
+  background-color: white;
+  border: none;
+  width: 80%;
+  text-align: left;
+  height: 10vh;
+  font-size: 20pt;
+}
+
+/* line 18, C:/Users/Zainde/Documents/HTMLSchool/Hovedforløb/php/_www1_apache/public_html/resources/sass/map.scss */
+#buttonholder button:focus {
+  outline: none;
+}
+
+/* line 22, C:/Users/Zainde/Documents/HTMLSchool/Hovedforløb/php/_www1_apache/public_html/resources/sass/map.scss */
+#buttonholder .map_hr {
+  background-color: #b59556;
+  margin: 0;
+  width: 208px;
+}
+
+/* line 28, C:/Users/Zainde/Documents/HTMLSchool/Hovedforløb/php/_www1_apache/public_html/resources/sass/map.scss */
+footer {
+  margin: 0;
+  height: 48px;
+  background-color: blue;
+}
+
+/* line 29, C:/Users/Zainde/Documents/HTMLSchool/Hovedforløb/php/_www1_apache/public_html/resources/sass/map.scss */
+footer p {
+  margin: 0;
+}
+
+/* line 36, C:/Users/Zainde/Documents/HTMLSchool/Hovedforløb/php/_www1_apache/public_html/resources/sass/map.scss */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=../css/map.map */
